@@ -1,3 +1,3 @@
 import datetime
 now = datetime.datetime.now()
-print("Today is", now.year, now.month, now.day, "and it is", now.hour, now.minute, now.second)
+print("Today is", now.strftime("%Y-%m-%d"), "and it is", now.strftime("%H:%M:%S"))
