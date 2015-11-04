@@ -1,3 +1,3 @@
 import operator
 def sqrt(x):
-    return operator.pow(x, 0.5)
+    return(operator.pow(x, 0.5))
