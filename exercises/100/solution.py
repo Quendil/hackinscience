@@ -1,4 +1,5 @@
-station = {'address': 'RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE) - 93170 BAGNOLET',
+station = {
+ 'address': 'RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE) - 93170 BAGNOLET',
  'number': 31705,
  'latitude': 48.8645278209514,
  'name': 'CHAMPEAUX (BAGNOLET)',
