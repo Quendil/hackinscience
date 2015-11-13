@@ -5,8 +5,13 @@ station = {
  'name': 'CHAMPEAUX (BAGNOLET)',
  'longitude': 2.416170724425901
 }
-print('latitude', station['latitude'])
-print('longitude', station['longitude'])
-print('number', station['number'])
-print('name', station['name'])
-print('address', station['address'])
+print(
+ 'latitude', station['latitude'])
+print(
+ 'longitude', station['longitude'])
+print(
+ 'number', station['number'])
+print(
+ 'name', station['name'])
+print(
+ 'address', station['address'])
