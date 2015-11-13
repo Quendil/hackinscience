@@ -1,3 +1,3 @@
 import sys
-for i in enumerate(sys.argv, start=0):
-    print(i, sys.argv[int(i)])
+for i, j in enumerate(sys.argv):
+    print(i, j)
