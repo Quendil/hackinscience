@@ -1,14 +1,18 @@
 def select_student(l, v):
     a = []
     b = []
+    c = []
+    d = []
     import operator
-    d = dict(l)
-    for i in d:
-        if d[i] > v:
+    e = dict(l)
+    for i in e:
+        if e[i] > v:
             a.append(i)
-            a.append(d[i])
+            b.append(e[i])
         else:
-            b.append(i)
-            b.append(d[i])
-    print(dict([('Accepted', a)]))
-    print(dict([('Refused', b)]))
+            c.append(i)
+            d.append(e[i])
+    for i in range(0, len(a)):
+        print('Accepted', [a[i], b[i]])
+    for i in range(0, len(c)):
+        print('Refused', [c[i], d[i]])
