@@ -24,7 +24,7 @@ def select_student(l, v):
     for i in range(0, len(c)):
         n = c[i], d[i]
         f.append(list(n))
-    g = {'Accepted' : list(e)}
-    h = {'Refused' : list(f)}
+    g = {'Accepted': list(e)}
+    h = {'Refused': list(f)}
     print(g)
     print(h)
