@@ -26,6 +26,6 @@ def select_student(l, v):
         f.append(list(n))
     e.sort(reverse=True, key=operator.itemgetter(1))
     f.sort(key=operator.itemgetter(1))
-    g = {'Accepted': list(e),\
+    g = {'Accepted': list(e),
     'Refused': list(f)}
     print(g)
