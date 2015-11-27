@@ -6,7 +6,7 @@ def select_student(l, v):
     for i in d:
         if d[i] > v:
             a.append(i)
-            a.append(d[i])            
+            a.append(d[i])
         else:
             b.append(i)
             b.append(d[i])
