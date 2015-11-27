@@ -14,8 +14,6 @@ def select_student(l, v):
         else:
             c.append(i)
             d.append(z[i])
-    e.append(list(m))
-    f.append(list(n))
     for i in range(0, len(a)):
         m = a[i], b[i]
         e.append(list(m))
