@@ -24,8 +24,8 @@ def select_student(l, v):
     for i in range(0, len(c)):
         n = c[i], d[i]
         f.append(list(n))
-    e.sort(reverse = True, key = operator.itemgetter(1))
-    f.sort(key = operator.itemgetter(1))
+    e.sort(reverse=True, key=operator.itemgetter(1))
+    f.sort(key=operator.itemgetter(1))
     g = {'Accepted': list(e)}
     h = {'Refused': list(f)}
     print(g)
