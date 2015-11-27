@@ -1,6 +1,6 @@
 def select_student(l, v):
-    a = []
-    b = []
+    a = [ ]
+    b = [ ]
     import operator
     d = dict(l)
     for i in d:
