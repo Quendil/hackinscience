@@ -6,7 +6,7 @@ def is_prime(x):
     if x == 2:
         return(True)
     if x > 2:
-        while n < x:
+        while n <= (x / 2):
             if x % n != 0:
                 n = n + 1
             else:
