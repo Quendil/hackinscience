@@ -7,9 +7,11 @@ def is_prime(x):
         return(True)
     if x > 2:
         while n < x:
-            if x % n == 0:
+            if x % n != 0:
+                n = n + 1
+            else:
                 s = 1
-            n = n + 1
+                break
         if s == 1:
             return(False)
         else:
