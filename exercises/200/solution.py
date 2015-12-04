@@ -1,7 +1,7 @@
 def is_prime(x):
     n = 2
     s = 0
-    if x == 1 or x == 2:
+    if x == 2:
         return(True)
     else:
         while n > x:
