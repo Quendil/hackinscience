@@ -15,7 +15,8 @@ if len(sys.argv) == 4:
         print(int(sys.argv[1]) % int(sys.argv[3]))
     if sys.argv[2] == '^':
         print(int(sys.argv[1]) ** int(sys.argv[3]))
-    if sys.argv[2] =! '+' or sys.argv[2] =! '-' or sys.argv[2] =! '/'\
-or sys.argv[2] =! '*' or sys.argv[2] =! '%' or sys.argv[2] =! '^'
+    if sys.argv[2] != '+' and sys.argv[2] != '-' and sys.argv[2] != '/'\
+and sys.argv[2] != '*' and sys.argv[2] != '%' and sys.argv[2] != '^':
+        print('usage: ./solution.py a_number (an_operator +-*/%^) a_number')
 else:
     print('usage: ./solution.py a_number (an_operator +-*/%^) a_number')
